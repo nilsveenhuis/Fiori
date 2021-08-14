@@ -1,0 +1,11 @@
+KreditlimitID,kunde_KundenID,Befristung,Hoehe,Bemerkung,Status,
+1,1,25.05.2022,50000,"","genehmigt"
+2,2,23.07.2023,10000,"Expansion","in Bearbeitung"
+3,3,20.04.2025,150000,"Anbau","abgelehnt"
+4,4,10.02.2021,1000,"Dienstwagen","genehmigt"
+5,5,05.10.2023,45000,"","genehmigt"
+6,6,31.12.2021,2500,"Kauf von Rohstoffen","in Bearbeitung"
+7,7,01.01.2023,90000,"","in Bearbeitung"
+8,8,15.07.2025,175000,"neue Maschine","abgelehnt"
+9,9,01.10.2021,50000000,"bitte prüfen","abgelehnt"
+10,10,12.04.2024,50000,"","genehmigt"

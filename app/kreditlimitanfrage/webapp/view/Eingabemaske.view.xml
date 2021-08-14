@@ -1,0 +1,67 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" controllerName="ns.kreditlimitanfrage.controller.Eingabemaske">
+    
+    <sap.m.semantic:DetailPage xmlns:sap.m.semantic="sap.m.semantic" id="page15">  
+        <sap.m.semantic:content>    
+            <ObjectNumber xmlns="sap.m" id="number_name"/>    
+            <Label xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:sap.m.semantic="sap.m.semantic" width="2%" id="label_name_copy" vAlign="Middle" textAlign="Left"/>    
+            <sap.ui.core:Icon xmlns:sap.ui.core="sap.ui.core" src="sap-icon://add-document" size="2em" id="icon2"/>
+        
+            <Label text="Kreditlimitanfrage" width="30%" id="label_kreditlimitanfrage" vAlign="Top"/>      
+                
+            <TileContent id="content0">
+                <content/>      
+            </TileContent>
+            
+            <ObjectNumber xmlns:mvc="sap.ui.core.mvc" xmlns:sap.m.semantic="sap.m.semantic" xmlns="sap.m" id="number_name_copy"/>
+            
+            <Label xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:sap.m.semantic="sap.m.semantic" width="2%" id="label_name_copy3" vAlign="Middle" textAlign="Left"/>
+            
+            <Label xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:sap.m.semantic="sap.m.semantic" text="Name:   " width="10%" id="label_name" vAlign="Middle" textAlign="Left" required="true"/>
+            
+            <Input xmlns:mvc="sap.ui.core.mvc" xmlns:sap.m.semantic="sap.m.semantic" xmlns="sap.m" xmlns:cd="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" id="input_name" width="60%" cd:w5g.dt.context="/Zusammenfassung" value="{Name}"/>      
+                
+            <ObjectNumber xmlns:mvc="sap.ui.core.mvc" xmlns:sap.m.semantic="sap.m.semantic" xmlns="sap.m" id="number_kundennr"/>      
+                
+            <Label xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:sap.m.semantic="sap.m.semantic" width="2%" id="label_name_copy2" vAlign="Middle" textAlign="Left"/>      
+                
+            <Label xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:sap.m.semantic="sap.m.semantic" text="KundenNr.:" width="10%" id="label_kundennr" textAlign="Left" vAlign="Middle" required="true"/>      
+            
+            <Input xmlns:mvc="sap.ui.core.mvc" xmlns:sap.m.semantic="sap.m.semantic" xmlns="sap.m" id="input_kundennr" width="60%"/>      
+                
+            <ObjectNumber xmlns:mvc="sap.ui.core.mvc" xmlns:sap.m.semantic="sap.m.semantic" xmlns="sap.m" id="number_limithoehe"/>      
+                
+            <Label xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:sap.m.semantic="sap.m.semantic" width="2%" id="label_name_copy4" vAlign="Middle" textAlign="Left"/>      
+                
+            <Label xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:sap.m.semantic="sap.m.semantic" text="Limithöhe:" width="10%" id="label_limithoehe" textAlign="Left" vAlign="Middle" required="true"/>      
+            
+            <Input xmlns:mvc="sap.ui.core.mvc" xmlns:sap.m.semantic="sap.m.semantic" xmlns="sap.m" id="input_limithoehe" width="60%" placeholder="z.B. 20000"/>      
+            
+            <ObjectNumber xmlns:mvc="sap.ui.core.mvc" xmlns:sap.m.semantic="sap.m.semantic" xmlns="sap.m" id="number_befristung"/>      
+            
+            <Label xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:sap.m.semantic="sap.m.semantic" width="2%" id="label_name_copy5" vAlign="Middle" textAlign="Left"/>      
+            
+            <Label xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:sap.m.semantic="sap.m.semantic" text="Befristung:" width="10%" id="label_befristung" textAlign="Left" vAlign="Middle" required="true"/>      
+            
+            <DatePicker xmlns="sap.m" id="picker_befristung" width="30%"/>      
+            
+            <ObjectNumber xmlns:mvc="sap.ui.core.mvc" xmlns:sap.m.semantic="sap.m.semantic" xmlns="sap.m" id="number_bemerkung"/>      
+            
+            <Label xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:sap.m.semantic="sap.m.semantic" width="2%" id="label_name_copy7" vAlign="Middle" textAlign="Left"/>      
+            
+            <Label xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:sap.m.semantic="sap.m.semantic" text="Bemerkung:" width="10%" id="labelbemerkung" textAlign="Left" vAlign="Middle"/>
+            
+            <TextArea xmlns="sap.m" rows="4" id="area_bemerkung" width="60%"/>      
+            
+            <ObjectNumber xmlns:mvc="sap.ui.core.mvc" xmlns:sap.m.semantic="sap.m.semantic" xmlns="sap.m" id="number_button"/>      
+            
+            <Label xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:sap.m.semantic="sap.m.semantic" width="60%" id="label_name_copy6" vAlign="Middle" textAlign="Left"/>      
+            
+             <Link xmlns="sap.m" text="Zurück" press="onNavBack" width="65px"/>
+
+             <Link xmlns="sap.m" text="Abbrechen" press="Abort" width="87px"/>
+
+             <Link xmlns="sap.m" text="An CAM senden" press="sendCAM"/>
+            
+        </sap.m.semantic:content>  
+    </sap.m.semantic:DetailPage>  
+</mvc:View>

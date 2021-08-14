@@ -1,0 +1,11 @@
+KundenID,kreditlimit_KreditlimitID,Name,Erstellungsdatum,Rating,Strasse,Hausnummer,PLZ,Ort,
+1,1,"AGRAVIS Raiffeisen AG",01.04.2010,"AAA","Industrieweg","110","48155","Muenster"
+2,2,"Viega GmbH & Co. KG",20.01.2000,"BB","Viega Platz","1","57439","Attendorn"
+3,3,"Lindner Group KG",15.07.2011,"CC","Bahnhofstraße","29","94424","Arnstorf"
+4,4,"tr8fin GmbH",01.01.2005,"A-","Weiherstraße","10","53560","Vettelschoß"
+5,5,"DKV Deutsche Krankenversicherung AG",01.01.2020,"A","Aachener Straße","300","50933","Köln"
+6,6,"Euler Hermes SA",01.01.2018,"CCC","Gasstraße","29","22761","Hamburg"
+7,7,"expert e-Commerce GmbH",31.10.2010,"BBB","Bayernstraße","4","30855","Langenhagen"
+8,8,"CITTI Märkte GmbH & Co. KG",27.09.2008,"AA-","Mühlendamm","1","24113","Kiel"
+9,9,"HERMA GmbH",01.01.2020,"BB","Heinrich-Hermann-Straße","14","70794","Filderstadt"
+10,10,"Wilhelm Böllhoff GmbH & Co. KG",01.01.2020,"C-","Archimedesstraße","1","33649","Bielefeld"

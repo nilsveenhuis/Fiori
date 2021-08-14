@@ -1,0 +1,17 @@
+{
+  "@sapui5/generator-sapui5-templates": {
+    "promptValues": {
+      "ApplicationTitle": "Kreditlimitanfrage an CAM",
+      "ApplicationDescription": "",
+      "FLP": false,
+      "GroupId": "$auto",
+      "ServiceBaseUri": "http://localhost:4004/my/",
+      "DatasourceUrl": "/my/",
+      "ObjectCollection": "Zusammenfassung",
+      "ObjectCollection_Key": "ZusammenfassungID",
+      "Object_Identifier": "ZusammenfassungID",
+      "Object_Number": "",
+      "Object_UnitOfMeasure": ""
+    }
+  }
+}

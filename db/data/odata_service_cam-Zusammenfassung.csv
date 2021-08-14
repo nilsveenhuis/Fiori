@@ -1,0 +1,11 @@
+ZusammenfassungID,Name,Erstellungsdatum,Rating,Strasse,Hausnummer,PLZ,Ort,Vorname,Nachname,Befristung,Hoehe,Bemerkung,Status
+"1","AGRAVIS Raiffeisen AG","01.04.2010","AAA","Industrieweg","110","48155","Muenster","Max","Mustermann","25.05.2022","50.000,00 EUR","","genehmigt"
+"2","Viega GmbH & Co. KG","20.01.2000","BB","Viega Platz","1","57439","Attendorn","Gina","Luley","23.07.2023","10.000,00 EUR","Expansion","in Bearbeitung"
+"3","Lindner Group KG","15.07.2011","CC","Bahnhofstraße","29","94424","Arnstorf","Johann","Steinke","20.04.2025","150.000,00 EUR","Anbau","abgelehnt"
+"4","tr8fin GmbH","01.01.2005","A-","Weiherstraße","10","53560","Vettelschoß","Willi","Bollinger","10.02.2021","1.000,00 EUR","Dienstwagen","genehmigt"
+"5","DKV Deutsche Krankenversicherung AG","01.01.2020","A","Aachener Straße","300","50933","Köln","Max","Mustermann","05.10.2023","45.000,00 EUR","","genehmigt"
+"6","Euler Hermes SA","01.01.2018","CCC","Gasstraße","29","22761","Hamburg","Gina","Luley","31.12.2021","2.500,00 EUR","Kauf von Rohstoffen","in Bearbeitung"
+"7","expert e-Commerce GmbH","31.10.2010","BBB","Bayernstraße","4","30855","Langenhagen","Johann","Steinke","01.01.2023","90.000,00 EUR","","in Bearbeitung"
+"8","CITTI Märkte GmbH & Co. KG","27.09.2008","AA-","Mühlendamm","1","24113","Kiel","Willi","Bollinger","15.07.2025","175.000,00 EUR","neue Maschine","abgelehnt"
+"9","HERMA GmbH","01.01.2020","BB","Heinrich-Hermann-Straße","14","70794","Filderstadt","Max","Mustermann","01.10.2021","5.000.000,00 EUR","bitte prüfen","abgelehnt"
+"10","Wilhelm Böllhoff GmbH & Co. KG","01.01.2020","C-","Archimedesstraße","1","33649","Bielefeld","Gina","Luley","12.04.2024","30.000,00 EUR","","genehmigt"

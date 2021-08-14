@@ -1,0 +1,50 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.f.semantic" controllerName="ns.kreditlimitanfrage.controller.Object">
+
+<semantic:SemanticPage id="page" headerPinnable="false" toggleHeaderOnTitleClick="false" busy="{objectView>/busy}" busyIndicatorDelay="{objectView>/delay}">
+
+		<semantic:titleHeading>
+		<sap.ui.core:Icon xmlns:sap.ui.core="sap.ui.core" src="sap-icon://employee" size="2em" id="icon1"/>
+		</semantic:titleHeading>
+
+		<semantic:headerContent>
+			<Label text="Kreditlimithöhe:" width="100%" id="label0_1626207655607" design="Bold"/>
+			<Title text="{Hoehe}" width="70%"/>
+			<ObjectNumber/>
+			<Label text="Kundennummer:" width="20%" design="Bold"/>
+			<Label xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.f.semantic" xmlns="sap.m" text="Status:" width="20%" design="Bold" id="label1_1626618868414"/>
+			<Label text="Befristung:" width="20%" id="label1" design="Bold"/>
+			<Label text="Kundenrating:" width="20%" id="label1_1626209437369" design="Bold"/>
+			<Label text="Angelegt von:" width="20%" id="label2" design="Bold"/>
+			<Label text="{ZusammenfassungID}" width="20%" id="label1_1626209808324" xmlns:cd="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" cd:w5g.dt.context="/Zusammenfassung"/>
+			<Label xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.f.semantic" xmlns="sap.m" text="{Status}" width="20%" id="label1_1626209808324_copy"/>
+			<Label text="{Befristung}" width="20%" id="label2_1626209940052"/>
+			<Label text="{Rating}" width="20%" id="label3"/>
+			<Label text="{Vorname} {Nachname}" width="20%" id="label4"/>
+			<ObjectNumber xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.f.semantic" xmlns="sap.m" id="number1"/>
+			<Label text="Bemerkung:" width="100%" id="label11" design="Bold"/>
+			<Label text="{Bemerkung}" width="100%" id="label12"/>
+		</semantic:headerContent>
+
+		<semantic:sendEmailAction>
+			<semantic:SendEmailAction id="shareEmail" press=".onShareEmailPress"/>
+		</semantic:sendEmailAction>
+
+
+	<semantic:content>
+
+
+	    <Link xmlns="sap.m" type="Navigation" text="Neues Kreditlimit beantragen" press="onShowEingabemaske"/>
+
+
+	</semantic:content>
+
+
+	<semantic:titleContent><Label xmlns="sap.m" text="{Name}" width="auto" id="label0" textAlign="Left"/>
+
+
+	</semantic:titleContent>
+
+
+	</semantic:SemanticPage>
+
+</mvc:View>
